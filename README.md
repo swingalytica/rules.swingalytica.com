@@ -8,10 +8,10 @@
 [![Lint Status](https://github.com/swingalytica/rules.swingalytica.com/workflows/Lint/badge.svg)](https://github.com/swingalytica/rules.swingalytica.com/actions/workflows/lint.yml)
 [![CodeQL](https://github.com/swingalytica/rules.swingalytica.com/workflows/CodeQL%20Advanced/badge.svg)](https://github.com/swingalytica/rules.swingalytica.com/actions/workflows/codeql.yml)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](./LICENSE)
-[![Version](https://img.shields.io/badge/version-0.1.0-green.svg)](./package.json)
+[![GitHub package.json version](https://img.shields.io/github/package-json/v/swingalytica/rules.swingalytica.com)](./package.json)
 [![Node Version](https://img.shields.io/badge/node-%3E%3D22.0.0-brightgreen.svg)](https://nodejs.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-blue.svg)](https://www.typescriptlang.org/)
-[![PNPM](https://img.shields.io/badge/pnpm-10.11.0-orange.svg)](https://pnpm.io/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue.svg)](https://www.typescriptlang.org/)
+[![PNPM](https://img.shields.io/badge/pnpm-required-orange.svg)](https://pnpm.io/)
 
 **A comprehensive, structured REST API providing access to official golf rules. Perfect for golf apps, clubs, tournaments, and developers building golf-related software.**
 
