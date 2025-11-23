@@ -16,7 +16,7 @@ test.describe('Root Route', () => {
       author: pkg.author,
       repository: pkg.repository,
       license: pkg.license,
-      docs: 'https://realgolf.games/developer/docs',
+      docs: 'https://swingalytica.com/developer/docs',
       status: 200
     });
   });
