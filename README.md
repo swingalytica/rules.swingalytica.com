@@ -17,7 +17,7 @@
 
 [📚 Documentation](https://swingalytica.com/docs/api/rules) • [🐛 Report Bug](https://github.com/swingalytica/rules.swingalytica.com/issues) • [💡 Request Feature](https://github.com/swingalytica/rules.swingalytica.com/issues)
 
-Built with ❤️ by [RealGolf.Games](https://realgolf.games) and the open-source community
+Built with ❤️ by [Swingalytica](https://swingalytica.com) and the open-source community
 
 </div>
 
@@ -168,7 +168,7 @@ Returns API information and metadata.
   "name": "golfrules-api",
   "version": "0.1.0",
   "description": "Open source API providing access to official golf rules...",
-  "author": "RealGolf.Games UG (haftungsbeschränkt) & Contributors",
+  "author": "Swingalytica & Contributors",
   "license": "Apache-2.0",
   "docs": "https://swingalytica.com/docs/api/rules",
   "status": 200
@@ -489,12 +489,12 @@ This project is licensed under the **Apache License 2.0** - see the [LICENSE](./
 
 ### Contact
 
-- **Website**: [RealGolf.Games](https://realgolf.games)
-- **Contact**: [Contact Form](https://realgolf.games/contact)
+- **Website**: [Swingalytica](https://swingalytica.com)
+- **Contact**: [Contact Form](https://swingalytica.com/contact)
 
 ## 🙏 Acknowledgments
 
-- Built and maintained by [RealGolf.Games UG](https://realgolf.games)
+- Built and maintained by [Swingalytica](https://swingalytica.com)
 - Powered by [Fastify](https://fastify.io), [MongoDB](https://www.mongodb.com), and [TypeScript](https://www.typescriptlang.org)
 - Thanks to all [contributors](https://github.com/swingalytica/rules.swingalytica.com/graphs/contributors)
 
@@ -510,6 +510,6 @@ If you find this project useful, please consider giving it a star! ⭐
 
 Made with ⛳ by the Golf Rules API Team
 
-[Website](https://realgolf.games) • [Documentation](https://swingalytica.com/docs/api/rules) • [GitHub](https://github.com/swingalytica/rules.swingalytica.com)
+[Website](https://swingalytica.com) • [Documentation](https://swingalytica.com/docs/api/rules) • [GitHub](https://github.com/swingalytica/rules.swingalytica.com)
 
 </div>
