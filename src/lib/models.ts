@@ -3,21 +3,29 @@ import mongoose from 'mongoose';
 const rule_schema = new mongoose.Schema({
   order: { type: Number, required: true, unique: true },
   id: { type: String, required: true, unique: true },
-  title: { type: String, required: true },
-  content: { type: String, required: true },
-  toc: {
-    h2: [
+  translations: {
+    type: Map,
+    of: new mongoose.Schema(
       {
-        id: { type: String, required: true },
-        text: { type: String, required: true },
-        h3: [
-          {
-            id: { type: String, required: true },
-            text: { type: String, required: true }
-          }
-        ]
-      }
-    ]
+        title: { type: String, required: true },
+        content: { type: String, required: true },
+        toc: {
+          h2: [
+            {
+              id: { type: String, required: true },
+              text: { type: String, required: true },
+              h3: [
+                {
+                  id: { type: String, required: true },
+                  text: { type: String, required: true }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      { _id: false }
+    )
   }
 });
 

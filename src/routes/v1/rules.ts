@@ -30,6 +30,8 @@ const rulesRoute: FastifyPluginAsync = async (fastify) => {
 
       const params: Params = parsed.data;
       const is_default = getIsDefault(params, default_params);
+      console.log(params.lang);
+      const lang = params.lang || 'de';
 
       if (is_default) {
         return await defaultQuery(params);
@@ -38,7 +40,7 @@ const rulesRoute: FastifyPluginAsync = async (fastify) => {
           .aggregate(pipeline as PipelineStage[])
           .exec();
 
-        const grouped_rules = groupRules(rules as Rule[]);
+        const grouped_rules = groupRules(rules as Rule[], lang);
 
         return { grouped_rules };
       } else if (params.id) {

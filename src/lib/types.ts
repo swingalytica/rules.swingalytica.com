@@ -4,7 +4,7 @@ export type Params = {
   limit: number;
   skip: number;
   grouped: string;
-  language: string;
+  lang: string;
   id?: string | undefined;
 };
 

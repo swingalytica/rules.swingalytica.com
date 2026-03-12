@@ -92,10 +92,10 @@ test.describe('/rules endpoint', () => {
   });
 });
 
-test('GET /rules?language=en returns warning about language', async ({
+test('GET /rules?lang=en returns warning about language', async ({
   request
 }) => {
-  const res = await request.get('/rules?language=en');
+  const res = await request.get('/rules?lang=en');
   expect(res.status()).toBe(200);
 
   const body = await res.json();
@@ -103,9 +103,7 @@ test('GET /rules?language=en returns warning about language', async ({
   expect(Array.isArray(body.warnings)).toBe(true);
   expect(body.warnings.length).toBeGreaterThan(0);
 
-  const warning = body.warnings.find(
-    (w: any) => w.query === 'language'
-  );
+  const warning = body.warnings.find((w: any) => w.query === 'lang');
   expect(warning).toBeDefined();
 
   expect(warning.message).toMatch(

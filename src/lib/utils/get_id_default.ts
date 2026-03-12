@@ -8,6 +8,6 @@ export function getIsDefault(
     params.limit === default_params.limit &&
     params.skip === default_params.skip &&
     params.grouped === default_params.grouped &&
-    params.language === default_params.language
+    params.lang === default_params.lang
   );
 }

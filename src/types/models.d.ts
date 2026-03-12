@@ -1,7 +1,16 @@
-import mongoose from 'mongoose';
-import { rule_model } from '../lib/models';
-
-export type Rule =
-  typeof rule_model extends mongoose.Model<infer rule_model>
-    ? rule_model
-    : never;
+export type Rule = {
+  translations?: Record<
+    string,
+    {
+      title: string;
+      content: string;
+      toc?: {
+        h2: {
+          id: string;
+          text: string;
+          h3: { id: string; text: string }[];
+        }[];
+      };
+    }
+  >;
+};
