@@ -30,7 +30,6 @@ const rulesRoute: FastifyPluginAsync = async (fastify) => {
 
       const params: Params = parsed.data;
       const is_default = getIsDefault(params, default_params);
-      console.log(params.lang);
       const lang = params.lang || 'de';
 
       if (is_default) {
